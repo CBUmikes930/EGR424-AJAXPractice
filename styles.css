@@ -1,0 +1,10 @@
+header {
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    padding: 25px;
+}
+
+h4 {
+    padding-left: 25px;
+}

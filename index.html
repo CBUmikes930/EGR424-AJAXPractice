@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="styles.css">
+    <title>AJAX Practice</title>
+</head>
+<body>
+    <header>
+        <label for="data_type">Choose a data set:</label>
+        <select id="data_type" name="data_type">
+            <option value disabled selected>Select an Option</option>
+            <option value="posts">Posts</option>
+            <option value="comments">Comments</option>
+            <option value="albums">Albums</option>
+            <option value="photos">Photos</option>
+            <option value="todos">Todos</option>
+            <option value="users">Users</option>
+        </select>
+        <br><br>
+        <label for="keys">Select what value to display:</label>
+        <select id="keys" name="keys">
+            <option value disabled selected>Select an Option</option>
+        </select>
+        <br><br>
+        <label for="ajax_type">AJAX Type:</label>
+        <select id="ajax_type" name="ajax_type">
+            <option value="XMLHttpRequest">XMLHttpRequest</option>
+            <option value="Fetch">Fetch</option>
+            <option value="AJAX and JQuery">AJAX and JQuery</option>
+        </select>
+        <br><br>
+        <input type="button" id="view_data" value="View" disabled="true">
+    </header>
+    <main>
+        <div id="display">
+
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
